@@ -44,6 +44,13 @@ html {
     padding: 4px 17px;
 }
 
+.white-button {
+    text-decoration: none;
+    color: black;
+    padding: 4px 17px;
+    border: 1px solid black;
+}
+
 .blue {
     color: #2577ff;
 }
@@ -133,6 +140,8 @@ html {
 
 /* **** main **** */
 
+/* sezione piani di abbonamento */
+
 .piani-title {
     margin: 70px 0 60px;
     padding-top: 120px;
@@ -213,6 +222,10 @@ html {
     padding-top: 15px;
 }
 
+.main-col .bottom-main-col h4 {
+    padding-bottom: 25px;
+}
+
 .main-col .bottom-main-col i {
     color: #2577ff;
 }
@@ -220,7 +233,6 @@ html {
 /* sezione bottom */
 
 .bottom-sezione {
-    margin-bottom: 60px;
     border: 1px solid #d9d9db;
 }
 
@@ -258,6 +270,38 @@ html {
     padding: 8px 0;
 }
 
+/* sezione partner */
+
+section.partner {
+    margin: 130px 0;
+}
+
+.img-partner {
+    width: 55%;
+}
+
+.text-partner {
+    width: 45%;
+}
+
+.img-partner img {
+    width: 100%;
+}
+
+.text-partner {
+    padding: 30px 0 0 36px;
+}
+
+.text-partner h3 {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.text-partner p {
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
 /* **** footer **** */
 
 /* effetto hover */
@@ -276,6 +320,10 @@ li a:hover {
 
 a.blue:hover {
     text-decoration: none;
+}
+
+.white-button:hover {
+    border: 2px solid black;
 }
 
 /* debug */
