@@ -7,6 +7,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.container.jumbo {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -19,6 +25,13 @@
 
 .right {
     float: right;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #0160ff;
+    padding: 4px 17px;
 }
 
 /* **** header **** */
@@ -48,15 +61,52 @@
 
 #accedi {
     color: white;
-    background-color: #0160ff;
-    padding: 4px 17px;
 }
 
 /* jumbotron */
 
 .jumbotron {
-    height: 700px;
+    height: 650px;
     background-color: #b3d0e7;
+}
+
+.jumbo-title h1{
+    font-size: 65px;
+    padding: 50px 0;
+}
+
+.jumbo-main {
+    position: relative;
+}
+
+.jumbo-text {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.jumbo-text p {
+    margin-bottom: 30px;
+}
+
+.jumbo-text span {
+    display: block;
+    margin-top: 15px;
+}
+
+#arrow {
+    font-size: 30px;
+    color: black;
+    display: block;
+    margin-top: 40px;
+}
+
+.jumbo-img img {
+    width: 800px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 /* **** main **** */
