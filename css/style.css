@@ -7,18 +7,56 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 /* **** header **** */
 
 /* header top */
 
 .header-top {
-    height: 100px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.header-top li {
+    display: inline-block;
+    padding: 0 18px;
+}
+
+.header-top li a {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
+.header-top li a img {
+    vertical-align: middle;
+}
+
+#accedi {
+    color: white;
+    background-color: #0160ff;
+    padding: 4px 17px;
 }
 
 /* jumbotron */
 
 .jumbotron {
     height: 700px;
+    background-color: #b3d0e7;
 }
 
 /* **** main **** */
@@ -28,7 +66,6 @@
 /* debug */
 
 header.debug {
-    height: 800px;
     background-color: blue;
 }
 
@@ -36,9 +73,9 @@ header.debug {
     background-color: coral;
 }
 
-.debug .jumbotron {
+/* .debug .jumbotron {
     background-color: darkmagenta;
-}
+} */
 
 main.debug {
     height: 2000px;
