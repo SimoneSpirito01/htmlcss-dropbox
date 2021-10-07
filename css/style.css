@@ -6,3 +6,46 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* **** header **** */
+
+/* header top */
+
+.header-top {
+    height: 100px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    height: 700px;
+}
+
+/* **** main **** */
+
+/* **** footer **** */
+
+/* debug */
+
+header.debug {
+    height: 800px;
+    background-color: blue;
+}
+
+.debug .header-top {
+    background-color: coral;
+}
+
+.debug .jumbotron {
+    background-color: darkmagenta;
+}
+
+main.debug {
+    height: 2000px;
+    background-color: burlywood;
+}
+
+footer.debug {
+    height: 600px;
+    background-color: chartreuse;
+}
