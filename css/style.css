@@ -8,14 +8,15 @@
 }
 
 .container-jumbo {
-    width: 90%;
+    width: 90vw;
     margin: 0 auto;
     max-width: 1180px;
 }
 
 .container-section {
-    width: 70%;
+    width: 70vw;
     margin: 0 auto;
+    max-width: 1080px
 }
 
 .clearfix::after {
@@ -37,6 +38,10 @@
     color: white;
     background-color: #0160ff;
     padding: 4px 17px;
+}
+
+.blue {
+    color: #2577ff;
 }
 
 /* **** header **** */
@@ -118,20 +123,26 @@
 /* **** main **** */
 
 .piani-title {
-    padding: 160px 0 30px;
+    padding: 160px 0 60px;
 }
 
 .piani-title h2 {
-    font-size: 30px;
+    font-size: 35px;
+}
+
+.piani .select label {
+    font-size: 15px;
+    padding-right: 10px;
 }
 
 .piani .colonne{
-    margin: 70px 0;
+    margin: 45px 0;
 }
 
 .piani .col {
     width: calc((100% - 100px) / 3);
-    min-height: 700px;
+    min-height: 1100px;
+    border: 1px solid #d9d9db;
 }
 
 .piani .col.centrale {
@@ -142,7 +153,7 @@
 
 .header-col {
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d9d9db;
     padding: 10px 0;
 }
 
@@ -154,9 +165,52 @@
 
 .main-col span {
     display: block;
+    padding-bottom: 25px;
+}
+
+.main-col .top-main-col h3 {
+    font-size: 22px;
+}
+
+.main-col .top-main-col .prezzo {
+    font-weight: bold;
+    padding: 20px 0 10px;
+}
+
+.main-col .top-main-col .scadenza {
+    font-size: 14px;
+    color: #bdc4c9;
+    padding-bottom: 40px;
+}
+
+.main-col .top-main-col .button {
+    text-align: center;
+    width: 100%;
+    margin:  25px 0 10px;
+    padding: 8px 0;
+    display: block;
+}
+
+.main-col .top-main-col .span-border {
+    display: inline-block;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d9d9db;
+}
+
+.main-col .bottom-main-col {
+    padding-top: 15px;
+}
+
+.main-col .bottom-main-col i {
+    color: #2577ff;
 }
 
 /* sezione bottom */
+
+.bottom-sezione {
+    margin-bottom: 60px;
+    border: 1px solid #d9d9db;
+}
 
 .bottom-sezione .main-col {
     position: relative;
@@ -166,10 +220,30 @@
     width: 70%;
 }
 
+.bottom-sezione .main-col .text-main-col h3 {
+    font-size: 22px;
+}
+
+.bottom-sezione .main-col .text-main-col h5 {
+    padding: 20px 0 30px;
+}
+
+.bottom-sezione .main-col .text-main-col span {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
 .bottom-sezione .main-col .contact-main-col {
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.bottom-sezione .main-col .contact-main-col .button {
+    width: 230px;
+    text-align: center;
+    display: block;
+    padding: 8px 0;
 }
 
 /* **** footer **** */
