@@ -55,6 +55,10 @@ html {
     color: #2577ff;
 }
 
+.centrale {
+    margin: 0 50px;
+}
+
 /* **** header **** */
 
 /* header top */
@@ -164,10 +168,6 @@ html {
     width: calc((100% - 100px) / 3);
     min-height: 1100px;
     border: 1px solid #d9d9db;
-}
-
-.piani .col.centrale {
-    margin: 0 50px;
 }
 
 /* header-col */
@@ -304,8 +304,34 @@ section.partner {
 
 /* sezione operazioni */
 
+.operazioni .title-operazioni {
+    padding-bottom: 50px;
+}
+
+.operazioni .title-operazioni h2 {
+    font-size: 35px;
+}
+
 .operazioni .box {
-    width: calc(100% / 3);
+    width: calc((100% - 100px) / 3);
+    padding-bottom: 80px;
+}
+
+.operazioni .img-operazioni img {
+    width: 100%;
+}
+
+.operazioni .text-operazioni h3 {
+    font-size: 22px;
+    padding: 25px 0;
+}
+
+.operazioni .text-operazioni p {
+    font-size: 14px;
+}
+
+.operazioni .text-operazioni p a {
+    color: black;
 }
 
 /* **** footer **** */
@@ -320,11 +346,9 @@ li a:hover {
     text-decoration: underline;
 }
 
-.tdn:hover {
-    text-decoration: none;
-}
-
-a.blue:hover {
+.tdn:hover,
+a.blue:hover, 
+.operazioni .text-operazioni p a:hover {
     text-decoration: none;
 }
 
