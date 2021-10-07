@@ -7,10 +7,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.container.jumbo {
+.container-jumbo {
     width: 90%;
     margin: 0 auto;
     max-width: 1180px;
+}
+
+.container-section {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .clearfix::after {
@@ -91,6 +96,7 @@
 }
 
 .jumbo-text span {
+    font-size: 13px;
     display: block;
     margin-top: 15px;
 }
@@ -111,7 +117,42 @@
 
 /* **** main **** */
 
+.piani-title {
+    padding: 160px 0 30px;
+}
+
+.piani-title h2 {
+    font-size: 30px;
+}
+
+.piani .colonne{
+    margin: 70px 0;
+}
+
+.piani .col {
+    width: calc((100% - 100px) / 3);
+    min-height: 700px;
+}
+
+.piani .col.centrale {
+    margin: 0 50px;
+}
+
 /* **** footer **** */
+
+/* effetto hover */
+
+.button:hover {
+    background-color: #3c85ff;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.tdn:hover {
+    text-decoration: none;
+}
 
 /* debug */
 
@@ -131,6 +172,16 @@ main.debug {
     height: 2000px;
     background-color: burlywood;
 }
+
+.debug .col {
+    border: 1px solid black;
+}
+
+.debug .sezione-bottom {
+    height: 200px;
+    border: 1px solid black;
+}
+
 
 footer.debug {
     height: 600px;
