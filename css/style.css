@@ -7,6 +7,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container-jumbo {
     width: 90vw;
     margin: 0 auto;
@@ -107,7 +111,7 @@
 }
 
 #arrow {
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     display: block;
     margin-top: 40px;
@@ -123,7 +127,8 @@
 /* **** main **** */
 
 .piani-title {
-    padding: 160px 0 60px;
+    margin: 80px 0 60px;
+    padding-top: 80px;
 }
 
 .piani-title h2 {
@@ -259,6 +264,10 @@ li a:hover {
 }
 
 .tdn:hover {
+    text-decoration: none;
+}
+
+a.blue:hover {
     text-decoration: none;
 }
 
