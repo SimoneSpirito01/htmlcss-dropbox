@@ -302,6 +302,12 @@ section.partner {
     padding-bottom: 30px;
 }
 
+/* sezione operazioni */
+
+.operazioni .box {
+    width: calc(100% / 3);
+}
+
 /* **** footer **** */
 
 /* effetto hover */
@@ -351,6 +357,20 @@ main.debug {
 
 .debug .bottom-sezione {
     height: 200px;
+    border: 1px solid black;
+}
+
+.debug.operazioni .title-operazioni {
+    height: 100px;
+    background-color: cyan;
+}
+
+.debug.operazioni .big-box {
+    background-color: chocolate;
+}
+
+.debug.operazioni .box {
+    height: 500px;
     border: 1px solid black;
 }
 
