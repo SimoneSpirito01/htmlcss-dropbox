@@ -370,7 +370,7 @@ section.partner {
 }
 
 .main-clienti .box-clienti img { 
-    width: 50%;
+    width: 60%;
     vertical-align: middle;
     filter: invert(100%);
 }
@@ -461,6 +461,10 @@ section.partner {
    
 }
 
+/* sezione faq */
+
+
+
 /* **** footer **** */
 
 /* effetto hover */
@@ -546,10 +550,9 @@ main.debug {
     background-color: coral;
 }
 
-/* .debug.clienti .container-section {
-    height: 100%;
+.debug.clienti .container-section {
     background-color: darkgreen;
-} */
+}
 
 .debug.clienti  .big-box-clienti {
     height: 100%;
@@ -567,6 +570,21 @@ main.debug {
 
 .debug.clienti .bottom-clienti .right-bottom-clienti {
     height: 100%;
+    border: 1px solid black;
+}
+
+.debug .title-faq {
+    height: 150px;
+    background-color: violet;
+}
+
+.debug .main-faq {
+    height: 400px;
+    background-color: tomato;
+}
+
+.debug .main-faq .domanda {
+    height: 100px;
     border: 1px solid black;
 }
 
