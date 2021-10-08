@@ -357,6 +357,18 @@ section.partner {
     width: 50%;
 }
 
+/* top clienti */
+
+.top-clienti .text-top-clienti {
+    width: 50%;
+    padding: 30px 15px 45px;
+}
+
+.top-clienti .text-top-clienti h3 {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
 /* **** footer **** */
 
 /* effetto hover */
@@ -424,10 +436,10 @@ main.debug {
     border: 1px solid black;
 }
 
-.debug.clienti .top-clienti {
+/* .debug.clienti .top-clienti {
     height: 300px;
     background-color: aqua;
-}
+} */
 
 .debug.clienti .main-clienti {
     height: 600px;
@@ -439,10 +451,10 @@ main.debug {
     background-color: coral;
 }
 
-.debug.clienti .container-section {
+/* .debug.clienti .container-section {
     height: 100%;
     background-color: darkgreen;
-}
+} */
 
 .debug.clienti  .big-box-clienti {
     height: 100%;
