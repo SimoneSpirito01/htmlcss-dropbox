@@ -339,24 +339,6 @@ section.partner {
 
 /* sezione clienti  */
 
-/* main sezione clienti */
-
-.main-clienti .big-box-clienti {
-    width: calc(100% / 3);
-}
-
-.main-clienti .big-box-clienti .box-clienti {
-    width: 50%;
-    height: 50%;
-}
-
-/* bottom sezione clienti */
-
-.bottom-clienti .left-bottom-clienti,
-.bottom-clienti .right-bottom-clienti {
-    width: 50%;
-}
-
 /* top clienti */
 
 .top-clienti .text-top-clienti {
@@ -369,17 +351,89 @@ section.partner {
     padding-bottom: 30px;
 }
 
-/* main clienti */
+/* main sezione clienti */
 
-.main-clienti .box-clienti {
+.main-clienti {
+    height: calc(100vw / 3);
+}
+
+.main-clienti .big-box-clienti {
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.main-clienti .big-box-clienti .box-clienti {
+    width: 50%;
+    height: 50%;
     line-height: calc(100vw / 6);
     text-align: center;
 }
 
-.main-clienti .box-clienti img {
-    filter: invert(100%);
+.main-clienti .box-clienti img { 
     width: 50%;
     vertical-align: middle;
+    filter: invert(100%);
+}
+
+.main-clienti .big-box-clienti hr {
+    width: 50px;
+    height: 1px;
+    background-color: #d9d9db;
+    border: none;  
+}
+
+.main-clienti .big-box-clienti:nth-child(2) {
+    background-color: #f5f5f5;
+    padding: 45px 40px;
+}
+
+.main-clienti .big-box-clienti:nth-child(2) img {
+    width: 130px;
+    padding-bottom: 40px;
+}
+
+.main-clienti .big-box-clienti:nth-child(2) p {
+    padding: 70px 0;
+}
+
+.main-clienti .big-box-clienti:first-child .box-clienti:first-child {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.main-clienti .big-box-clienti:first-child .box-clienti:nth-child(2) {
+    background-color: #61082b;
+}
+
+.main-clienti .big-box-clienti:first-child .box-clienti:nth-child(3) {
+    background-color: #0093ce;
+}
+
+.main-clienti .big-box-clienti:first-child .box-clienti:nth-child(4) {
+    background-color: #ff1c1c;
+}
+
+.main-clienti .big-box-clienti:nth-child(3) .box-clienti:first-child {
+    background-color: #d5001f;
+}
+
+.main-clienti .big-box-clienti:nth-child(3) .box-clienti:nth-child(2) {
+    background-color: #b4d0e7;
+}
+
+.main-clienti .big-box-clienti:nth-child(3) .box-clienti:nth-child(3) {
+    background-color: #0d2481;
+}
+
+.main-clienti .big-box-clienti:nth-child(3) .box-clienti:nth-child(4) {
+    background-color: #ffd830;
+}
+
+/* bottom sezione clienti */
+
+.bottom-clienti .left-bottom-clienti,
+.bottom-clienti .right-bottom-clienti {
+    width: 50%;
 }
 
 /* **** footer **** */
