@@ -431,9 +431,34 @@ section.partner {
 
 /* bottom sezione clienti */
 
+.bottom-clienti {
+    background-color: #b4d0e7;
+}
+
+.bottom-clienti .container-section {
+    padding: 120px 35px;
+}
+
 .bottom-clienti .left-bottom-clienti,
 .bottom-clienti .right-bottom-clienti {
     width: 50%;
+}
+
+.bottom-clienti .left-bottom-clienti h3 {
+    font-size: 36px;
+    color: #61082b;
+}
+
+.bottom-clienti .right-bottom-clienti {
+    text-align: right;
+    padding-top: 14px;
+}
+
+.bottom-clienti .right-bottom-clienti .white-button {
+    background-color: white;
+    padding: 6px 50px;
+    border: none;
+   
 }
 
 /* **** footer **** */
@@ -457,8 +482,12 @@ a.blue:hover,
     text-decoration: none;
 }
 
-.white-button:hover {
+.text-partner .white-button:hover {
     border: 2px solid black;
+}
+
+.bottom-clienti .white-button:hover {
+    background-color: #f5f5f5;
 }
 
 /* debug */
@@ -503,10 +532,9 @@ main.debug {
     border: 1px solid black;
 }
 
-/* .debug.clienti .top-clienti {
-    height: 300px;
+.debug.clienti .top-clienti {
     background-color: aqua;
-} */
+}
 
 .debug.clienti .main-clienti {
     height: calc(100vw / 3);
