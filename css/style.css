@@ -463,7 +463,43 @@ section.partner {
 
 /* sezione faq */
 
+.faq .container-section {
+    margin: 120px auto;
+    padding: 0 35px;
+}
 
+.title-faq h3 {
+    font-size: 28px;
+    padding-bottom: 50px;
+}
+
+.main-faq .domanda {
+    padding: 30px 0;
+    border-top: 1px solid #d9d9db;
+}
+
+.main-faq .domanda:last-child {
+    border-bottom: 1px solid #d9d9db;
+}
+
+.main-faq .domanda h5 {
+    font-size: 14px;
+}
+
+.main-faq .domanda .text-domanda,
+.main-faq .domanda .arrow-domanda {
+    display: inline-block;
+}
+
+.main-faq .domanda .text-domanda {
+    width: 80%;
+}
+
+.main-faq .domanda .arrow-domanda {
+    width: 19%;
+    text-align: right;
+    padding-right: 25px;
+}
 
 /* **** footer **** */
 
@@ -574,7 +610,6 @@ main.debug {
 }
 
 .debug .title-faq {
-    height: 150px;
     background-color: violet;
 }
 
