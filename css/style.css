@@ -496,9 +496,7 @@ section.partner {
 }
 
 .main-faq .domanda .arrow-domanda {
-    width: 19%;
-    text-align: right;
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 /* **** footer **** */
@@ -537,6 +535,10 @@ a.blue:hover,
 .faq .domanda:hover .text-domanda p {
     font-size: 14px;
     padding-top: 25px;
+}
+
+.faq .domanda:hover .arrow-domanda i::before {
+    content: "\f077";
 }
 
 /* debug */
