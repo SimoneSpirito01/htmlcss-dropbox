@@ -369,6 +369,19 @@ section.partner {
     padding-bottom: 30px;
 }
 
+/* main clienti */
+
+.main-clienti .box-clienti {
+    line-height: calc(100vw / 6);
+    text-align: center;
+}
+
+.main-clienti .box-clienti img {
+    filter: invert(100%);
+    width: 50%;
+    vertical-align: middle;
+}
+
 /* **** footer **** */
 
 /* effetto hover */
@@ -442,7 +455,7 @@ main.debug {
 } */
 
 .debug.clienti .main-clienti {
-    height: 600px;
+    height: calc(100vw / 3);
     background-color: blueviolet;
 }
 
