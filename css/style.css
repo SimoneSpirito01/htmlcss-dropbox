@@ -354,18 +354,18 @@ section.partner {
 /* main sezione clienti */
 
 .main-clienti {
-    height: calc(100vw / 3);
+    height: calc(100vw / 3.5);
 }
 
 .main-clienti .big-box-clienti {
-    width: calc(100% / 3);
+    width: calc(100% / 3.5);
     height: 100%;
 }
 
 .main-clienti .big-box-clienti .box-clienti {
     width: 50%;
     height: 50%;
-    line-height: calc(100vw / 6);
+    line-height: calc((100vw / 3.5) / 2);
     text-align: center;
 }
 
@@ -383,17 +383,18 @@ section.partner {
 }
 
 .main-clienti .big-box-clienti:nth-child(2) {
+    width: calc(100% / (7 / 3));
     background-color: #f5f5f5;
-    padding: 45px 40px;
+    padding: 40px;
 }
 
 .main-clienti .big-box-clienti:nth-child(2) img {
     width: 130px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .main-clienti .big-box-clienti:nth-child(2) p {
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .main-clienti .big-box-clienti:first-child .box-clienti:first-child {
@@ -529,7 +530,7 @@ a.blue:hover,
 }
 
 .faq .domanda:hover .text-domanda p::after{
-    content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, fugiat quos ab nihil aut sed adipisci exercitationem quod itaque similique unde delectus quam corrupti impedit veniam assumenda! Rerum, distinctio voluptates!Accusamus illo labore beatae eveniet asperiores soluta numquam cumque rem est fuga natus ex harum pariatur, in ut. Animi expedita aut magni, voluptates ducimus quos";
+    content: "Il piano Standard fornisce ai team 5 TB (5000 GB) di spazio di archiviazione e strumenti di condivisione e collaborazione intuitivi. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piano Advanced offre tutto lo spazio necessario, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni, confronta i piani Dropbox.";
 }
 
 .faq .domanda:hover .text-domanda p {
