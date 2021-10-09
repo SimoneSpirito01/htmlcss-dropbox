@@ -502,6 +502,22 @@ section.partner {
 
 /* **** footer **** */
 
+/* footer top */
+
+.footer-top {
+    height: 80%;
+}
+
+.footer-top .footer-col {
+    width: 20%;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+    height: 20%;
+}
+
 /* effetto hover */
 
 .button:hover {
@@ -635,8 +651,24 @@ main.debug {
     border: 1px solid black;
 }
 
-
 footer.debug {
     height: 600px;
     background-color: chartreuse;
+}
+
+.debug .container-jumbo {
+    height: 100%;
+}
+
+.debug .footer-top {
+    background-color: blueviolet;
+}
+
+.debug .footer-bottom {
+    background-color: crimson;
+}
+
+.debug .footer-col {
+    height: 100%;
+    border: 1px solid black;
 }
