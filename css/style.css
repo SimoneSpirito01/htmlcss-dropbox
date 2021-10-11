@@ -458,7 +458,6 @@ section.partner {
 /* top clienti */
 
 .top-clienti .text-top-clienti {
-    width: 50%;
     padding: 30px 15px 45px;
 }
 
@@ -717,6 +716,41 @@ a.blue:hover,
     text-decoration: underline;
 }
 
+/* chat */
+
+.chat {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://static.wixstatic.com/media/713b90_7841ba78e810446f8765776b69ee76e3~mv2.png);
+    background-size: cover;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.chat input {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.chat .chatbox {
+    width: 400px;
+    height: 600px;
+    background-color: blue;
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+}
+
+.chat input:checked + .chatbox {
+    display: block;
+}
+
+
+
 /* debug */
 
 header.debug {
@@ -830,4 +864,14 @@ footer.debug {
 .debug .footer-col {
     height: 100%;
     border: 1px solid black;
+}
+
+.debug .header-chat {
+    height: 10%;
+    background-color: chocolate;
+}
+
+.debug .main-chat {
+    height: 90%;
+    background-color: cyan;
 }
