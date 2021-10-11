@@ -311,6 +311,18 @@ html {
     font-size: 22px;
 }
 
+.main-col .top-main-col .clearfix span {
+    width: 90%;
+    float: left;
+}
+
+.main-col .top-main-col .clearfix i {
+    width: 5%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 3px;
+}
+
 .main-col .top-main-col .prezzo {
     font-weight: bold;
     padding: 20px 0 10px;
@@ -344,8 +356,17 @@ html {
     padding-bottom: 25px;
 }
 
+.main-col .bottom-main-col span {
+    width: 90%;
+    float: left;
+}
+
 .main-col .bottom-main-col i {
+    width: 5%;
     color: #2577ff;
+    float: left;
+    margin-right: 5%;
+    margin-top: 3px;
 }
 
 /* sezione bottom */
@@ -718,7 +739,7 @@ a.blue:hover,
 
 /* chat */
 
-.chat {
+.chat .open-button {
     width: 50px;
     height: 50px;
     background-image: url(https://static.wixstatic.com/media/713b90_7841ba78e810446f8765776b69ee76e3~mv2.png);
@@ -734,6 +755,9 @@ a.blue:hover,
     height: 50px;
     opacity: 0;
     cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
 }
 
 .chat .chatbox {
@@ -811,10 +835,6 @@ a.blue:hover,
     border: none;
     border-radius: 5px;
 }
-
-
-
-
 
 /* debug */
 
