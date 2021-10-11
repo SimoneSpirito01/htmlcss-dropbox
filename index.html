@@ -122,7 +122,7 @@
                     <li><a href="#ancora">Piani e prezzi</a></li>
 
                     <!-- layover -->
-                    <div class="layover"></div>
+                    <li class="layover"></li>
                     <!-- /layover -->
 
                 </ul>
@@ -178,7 +178,7 @@
                     <li class="bbn"><a id="accedi" class="button d-inline" href="#">Inizia</a></li>
 
                     <!-- layover -->
-                    <div class="layover"></div>
+                    <li class="layover"></li>
                     <!-- /layover -->
 
                 </ul>
@@ -248,12 +248,12 @@
 
                     <!-- input radio custom -->
                     <label for="fatt-mensile">Fatturazione mensile
-                        <input type="radio" name="fatturazione" value="fatturazione mensile">
+                        <input type="radio" name="fatturazione" value="fatturazione mensile" id="fatt-mensile" >
                         <span class="checkmark"></span>
                     </label>
                     
                     <label for="fatt-annuale">Fatturazione annuale
-                        <input type="radio" name="fatturazione" value="fatturazione annuale">
+                        <input type="radio" name="fatturazione" value="fatturazione annuale" id="fatt-annuale">
                         <span class="checkmark"></span>
                     </label>
                     <!-- /input radio custom -->
@@ -1077,15 +1077,15 @@
             <!-- main chat -->
             <div class="main-chat">
 
-                <form class="clearfix" action="">
+                <form class="clearfix" action="#">
 
                     <label class="email" for="email">Email</label>
-                    <input type="email">
+                    <input type="email" id="email">
                 
                     <label class="text-area" for="help">How can we help you today? <span>*</span></label>
                     <textarea name="help" id="help" cols="36" rows="10" placeholder="Type your message..."></textarea>
 
-                    <input class="right" type="submit" value="START CHAT" required>
+                    <input class="right" type="submit" value="START CHAT">
 
                 </form>
 
