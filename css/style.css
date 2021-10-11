@@ -77,7 +77,6 @@ html {
 
 .header-top li {
     display: inline-block;
-    padding: 0 18px;
 }
 
 .header-top li a {
@@ -87,9 +86,10 @@ html {
     display: inline-block;
 }
 
-.header-top .right li:last-child a {
-    display: inline;
+.header-top > nav > ul > li:not(.bbn) > a {
+    padding: 0 18px;
 }
+
 
 .header-top li a img {
     vertical-align: text-bottom;
@@ -97,6 +97,59 @@ html {
 
 #accedi {
     color: white;
+    display: inline;
+}
+
+/* effetto menu' hover */
+
+.header-top .menu-hidden {
+    font-size: 13px;
+    background-color: #f2eee8;
+    padding: 10px 0;
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+    display: none;
+}
+
+.header-top .menu-hidden nav.left {
+    width: 240px;
+}
+
+.header-top .menu-hidden li {
+    display: block;
+    line-height: 15px;
+    padding: 10px 18px;
+}
+
+.header-top .menu-hidden li:not(.cbn):hover {
+    background-color: #e7e0d7;
+}
+
+.header-top li.bbn {
+    margin: 0 18px;
+}
+
+.header-top ul li:hover .menu-hidden,
+.header-top ul li .menu-hidden:hover {
+    display: block;
+}
+
+.layover {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    overflow: hidden;
+}
+
+.header-top ul li.mh:hover ~ .layover {
+    display: block;
 }
 
 /* jumbotron */
@@ -221,13 +274,13 @@ html {
 
 .piani .select .checkmark::after {
     content: "";
-	width: 8px;
-	height: 8px;
+	width: 10px;
+	height: 10px;
 	border-radius: 50%;
 	background-color: white;
     position: absolute;
-    top: 6px;
-	left: 6px;
+    top: 5px;
+	left: 5px;
     display: none;
 }
 
@@ -379,7 +432,7 @@ section.partner {
 
 .operazioni .box {
     width: calc((100% - 100px) / 3);
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .operazioni .img-operazioni img {
@@ -447,6 +500,7 @@ section.partner {
 
 .main-clienti .big-box-clienti:nth-child(2) {
     width: calc(100% / (7 / 3));
+    overflow: auto;
     background-color: #f5f5f5;
     padding: 40px;
 }
@@ -628,12 +682,9 @@ footer hr {
     background-color: #3c85ff;
 }
 
-.header-top li:hover {
-    border-bottom: 2px solid black;
-}
-
-.header-top li.bbn:hover {
-    border-bottom: none;
+.header-top > nav > ul > li:not(.bbn):hover {
+    border-bottom: 2px solid #d7c4a9;
+    background-color: #f2eee8;
 }
 
 a.blue:hover, 
