@@ -729,25 +729,90 @@ a.blue:hover,
     right: 30px;
 }
 
-.chat input {
+.chat > input {
     width: 50px;
     height: 50px;
     opacity: 0;
+    cursor: pointer;
 }
 
 .chat .chatbox {
-    width: 400px;
-    height: 600px;
-    background-color: blue;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
     display: none;
     position: fixed;
     bottom: 100px;
     right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.chat input:checked + .chatbox {
+.chat .chatbox .header-chat {
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background-color: #0d2481;
+}
+
+.chat .chatbox .main-chat {
+    background-color: white;
+}
+
+.chat > input:checked + .chatbox {
     display: block;
 }
+
+.chat .header-chat .left {
+    width: 15%;
+    height: 100%;
+}
+
+.chat .header-chat .left:nth-child(2) {
+    width: 70%;
+}
+
+.chat form {
+    font-size: 13px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.chat form label.email {
+    padding-top: 20px;
+}
+
+.chat form label.text-area {
+    padding-top: 10px;
+}
+
+.chat form label.text-area span {
+    color: red;
+}
+
+.chat form label,
+.chat form input {
+    display: block;
+}
+
+.chat textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.chat form input:first-of-type {
+    width: 100%;
+}
+
+.chat form input:last-of-type {
+    color: white;
+    background-color: #0d2481;
+    margin: 30px 0 20px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+
 
 
 
@@ -868,7 +933,6 @@ footer.debug {
 
 .debug .header-chat {
     height: 10%;
-    background-color: chocolate;
 }
 
 .debug .main-chat {
